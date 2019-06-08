@@ -40,5 +40,6 @@ let y = (a: 100, b:200)
 print(y)
 print(y.a, y.b)
 
+let (_, x1) = x
 
-
+print(x1)
