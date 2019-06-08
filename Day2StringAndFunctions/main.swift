@@ -7,6 +7,16 @@
 //
 
 import Foundation
+//
+//print("Hello, World!")
+//
 
-print("Hello, World!")
+func welcome(person: String,_ n:Int) -> Void {
+    let greeting = "Welcome to Toronto \(person)!"
+    for _ in 1...n{
+        print(greeting)
+        }
 
+    }
+
+print( welcome(person: "Neeraj", 3))
