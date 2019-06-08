@@ -19,7 +19,7 @@ func welcome(person: String,_ n:Int) -> Void {
 
     }
 
-print( welcome(person: "Neeraj", 3))
+print ( welcome(person: "Neeraj",3))
 
 
 func mul(of a:Int, and b:Int) -> Int {
@@ -43,3 +43,12 @@ print(y.a, y.b)
 let (_, x1) = x
 
 print(x1)
+
+
+func printNumbers(n: Int...){
+    print("n[0] : \(n[0])")
+    print("COUNT : \(n.count)")
+    for i in n {
+        print(i);
+    }
+}
