@@ -20,3 +20,25 @@ func welcome(person: String,_ n:Int) -> Void {
     }
 
 print( welcome(person: "Neeraj", 3))
+
+
+func mul(of a:Int, and b:Int) -> Int {
+    return a*b;
+}
+
+var c = mul(of: 10, and: 20)
+
+print(c);
+
+let x = (100, 200)
+
+print(x)
+print(x.0, x.1)
+
+let y = (a: 100, b:200)
+
+print(y)
+print(y.a, y.b)
+
+
+
